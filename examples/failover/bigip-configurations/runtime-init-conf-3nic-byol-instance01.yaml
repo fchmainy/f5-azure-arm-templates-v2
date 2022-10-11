@@ -37,7 +37,7 @@ extension_services:
           My_Ntp:
             class: NTP
             servers:
-              - 0.pool.ntp.org
+              - time.windows.com
               - 1.pool.ntp.org
             timezone: UTC
           My_Dns:
